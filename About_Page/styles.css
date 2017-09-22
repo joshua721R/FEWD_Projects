@@ -34,3 +34,6 @@ p{
 .resume_section_list{
   column-count: 3;
 }
+a{
+  border-right: 1px solid black;
+}
