@@ -30,10 +30,10 @@ nav a{
 }
 .articles{
   display:flex;
-  flex-direction:row;
+  /*flex-direction:row;*/
 }
 .primary{
-  width:66.66%;
+  width:66%;
 }
 .sidebar{
   width:33.33%;
