@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Application Form</title>
+
+  <!-- Fonts have already been added here! -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<div class="container">
+  <div class="form-page">
+<body>
+<h1>Your Contact Info</h1>
+  <form>
+      <label for="full-name">Full Name</label>
+      <input type="text" id="full-name" name="full-name" placeholder="Enter your full name">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+      <label for="phone"> Phone Number</label>
+      <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+
+  <hr>
+  <h1>Skills and Interests</h1>
+
+    <label for="course">What course are you interested in?</label>
+    <select name="course-select" id="course-select">
+      <option value="Fun">Fun course</option>
+      <option value="Hard">Hard course</option>
+      <option value="Boring">Boring course</option>
+      <option value="Party">Party course</option>
+    </select>
+
+    <br>
+
+    <label for="where">Where do you want to take this course?</label>
+      <div class="cities-radio">
+        <input type="radio" id="san-francisco" name="city">
+        <label for="San Francisco">San Francisco</label>
+        <input type="radio" id="chicago" name="city">
+        <label for="chicago">Chicago</label>
+      </div>
+      <br>
+    <label for="experience">Past Experience?</label>
+  		<textarea id="experience-box" name="experience-box" placeholder="What is your past experience?"></textarea>
+
+    <input type="checkbox" id="email-update" name="email-update">
+      <label for="save-login">I want to recieve email updates</label>
+
+<hr>
+    <button type="submit">Submit</button>
+
+     </form>
+
+</body>
+  </div>
+</div>
+
+</html>
