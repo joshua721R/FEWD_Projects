@@ -53,4 +53,8 @@ button{
 }
 h1{
   text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+label{
+  font-family: 'Open Sans', sans-serif;
 }
