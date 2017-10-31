@@ -1,0 +1,32 @@
+
+table {
+  width: 50%;
+}
+td {
+  width: 33.333%;
+  border:6px solid black;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 50%;
+}
+td:first-of-type{
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
+td:nth-of-type(2){
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+td:nth-of-type(3){
+  border-top-color:transparent;
+  border-right-color:transparent;
+}
+
+#seven, #eight, #nine{
+  border-bottom-color: transparent;
+}
